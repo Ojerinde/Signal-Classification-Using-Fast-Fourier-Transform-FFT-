@@ -6,7 +6,7 @@ This project builds a system in MATLAB to identify different types of signals—
 
 The system generates sample signals, processes them, trains a model, checks its accuracy, and creates plots to show the results.
 
-## Why FFT Is Cool
+## Why FFT
 
 FFT turns signals into their frequency patterns, like revealing the unique "sound" of each signal type. A sine wave has one clear frequency, a square wave has multiple sharp ones, and an ECG is messy with noise. This makes it easier to tell them apart.
 
@@ -71,15 +71,11 @@ I use a confusion matrix to see how often the model gets it right, showing true 
 
 ### Steps
 
-1. Clone the project:
-   ```bash
-   git clone https://github.com/your-username/signal-classification-fft.git
-   cd signal-classification-fft
-   ```
-2. Open MATLAB, go to the project folder, and run:
-   ```matlab
-   run('main.m')
-   ```
+Open MATLAB, go to the project folder, and run:
+
+```matlab
+run('main.m')
+```
 
 ## Visuals
 
